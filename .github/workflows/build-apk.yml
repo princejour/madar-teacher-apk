@@ -1,10 +1,9 @@
-
 name: Build Teacher APK from ZIP
 
-on:
+"on":
   push:
     branches:
-      - principal
+      - main
   workflow_dispatch:
 
 permissions:
