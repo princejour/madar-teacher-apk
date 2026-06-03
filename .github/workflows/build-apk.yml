@@ -31,7 +31,7 @@ jobs:
 
       - name: Unzip project
         run: |
-          ZIP_FILE="./TeacherAPK_PasswordOnly_v8_COPYRIGHT_FIXED.zip"
+          ZIP_FILE="./TeacherAPK_PasswordOnly_v9_REAL_COPYRIGHT.zip"
           echo "ZIP_FILE=$ZIP_FILE"
           ls -la
           unzip -q "$ZIP_FILE" -d extracted
